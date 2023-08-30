@@ -5,10 +5,10 @@ namespace CarWashAlt.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AllDataAtOnePlace : ControllerBase
+    public class CollectiveData : ControllerBase
     {
         private readonly OrderDataService service;
-        public AllDataAtOnePlace(OrderDataService serv)
+        public CollectiveData(OrderDataService serv)
         {
             service = serv;
 
